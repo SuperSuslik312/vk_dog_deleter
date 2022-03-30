@@ -10,7 +10,7 @@ for (let i = 0; i < num; i++) {
 }
 lis = document.querySelector("#group_u_rows_members").childNodes;
 for (let i = 0; i < lis.length; i++) {
-    if (lis[i]["firstElementChild"]["firstElementChild"]["firstElementChild"].src === "https://vk.com/images/deactivated_100.png?ava=1") {
+    if (lis[i]["firstElementChild"]["firstElementChild"]["firstElementChild"].src === "https://vk.com/images/deactivated_100.png") {
         document.querySelector("#group_u_rows_members").childNodes[i].childNodes[3]["firstElementChild"].onclick();
         dogs++;
     }
